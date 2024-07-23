@@ -1,0 +1,68 @@
+body{
+    background-color: var(--fundo-card);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:Manrope ;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+background-color: var(--card);
+height: 250px;
+width: 280px;
+border-radius: 8px;
+
+}
+
+.card .content {
+    color: var(--texto2);
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    width: 200px;
+}
+
+.card h3{
+    color: var(--texto1);
+}
+
+ div{    
+    display: flex;
+   align-items: center;
+    
+}
+
+div img{
+    width: 200px;
+}
+
+.icon{
+    background-color: var(--botao);
+    width: 60px;
+    height: 60px;
+    display: flex;
+align-items: center;
+    margin-top: 40px;
+border-radius: 50px;
+}
+
+.icon img{
+    width: 30px;
+    margin-left: 15px;
+    
+}
+
+@media (max-width:768px){
+    .card{
+     display: flex;
+    }
+     
+    .card .content{
+     position: fixed;
+    }
+ }
