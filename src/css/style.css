@@ -29,6 +29,7 @@ border-radius: 8px;
 
 .card h3{
     color: var(--texto1);
+    margin-top: 20px;
 }
 
  div{    
@@ -47,7 +48,7 @@ div img{
     height: 60px;
     display: flex;
 align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 border-radius: 50px;
 }
 
@@ -60,6 +61,7 @@ border-radius: 50px;
 @media (max-width:768px){
     .card{
      display: flex;
+     position: fixed;
     }
      
     .card .content{
